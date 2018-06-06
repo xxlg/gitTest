@@ -25,7 +25,7 @@ public class AgreementController {
     @RequestMapping("/agreement/queryList")
     public String queryList(){
         List<Agreement> agreeList = agreementService.queryList();
-        System.out.println("协议编号:"+agreeList.get(0).getAgreeName());
+        System.out.println("协议编号1:"+agreeList.get(0).getAgreeName());
         return agreeList.get(0).getAgreeName();
     }
 }
