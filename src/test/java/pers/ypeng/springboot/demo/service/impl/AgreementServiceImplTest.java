@@ -24,6 +24,6 @@ public class AgreementServiceImplTest {
     @Test
     public void queryList() {
         List<Agreement> agreeList = agreementMapper.queryList();
-        System.out.print("协议名称--------->"+agreeList.get(0).getAgreeName());
+        System.out.print("名称--------->"+agreeList.get(0).getAgreeName());
     }
 }
