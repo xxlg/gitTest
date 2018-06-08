@@ -27,6 +27,6 @@ public class AgreementController {
         List<Agreement> agreeList = agreementService.queryList();
         System.out.println("协议编号1:"+agreeList.get(0).getAgreeName());
         return agreeList.get(0).getAgreeName();
-        
+
     }
 }
